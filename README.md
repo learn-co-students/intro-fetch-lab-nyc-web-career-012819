@@ -12,9 +12,9 @@ API Documentation for SWAPI is at [https://swapi.co/documentation](https://swapi
 
 1.  Opening Crawl - Star Wars Episode 4 (`getOpeningCrawl`)
 
-* When the user clicks the button "Get Opening Crawl", it should trigger the function `getOpeningCrawl` which should fetch the data from the correct URL
+  * When the user clicks the button "Get Opening Crawl", it should trigger the function `getOpeningCrawl` which should fetch the data from the correct URL
   _NOTE: The ID for Episode 4 is 1_
-* When the promise is resolved, the 'opening crawl' should appear on the page in the `#crawlDiv`
+  * When the promise is resolved, the 'opening crawl' should appear on the page in the `#crawlDiv`
 
 Getting data from SWAPI is simple! We pass the url into `fetch`, then add the handling behavior for the response with `.then`:
 
